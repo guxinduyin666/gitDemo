@@ -4,8 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.9/vue.min.js"></script>
 </head>
 <body>
-    <div id="app"></div>
+    <div id="app">
+        <input type="text" name="userName" v-model="userName" />
+        <div v-text="userName"></div>
+    </div>
+    <script src="./index.js"></script>
 </body>
 </html>
